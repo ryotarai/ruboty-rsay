@@ -23,7 +23,7 @@ Or install it yourself as:
 Before using ruboty-rsay, please set up and run rsay.
 
 ```
-$ RSAY_QUEUE_URLS='living:https://sqs.region.amazonaws.com/123456789/rsay-living,bedroom' ruboty
+$ RSAY_QUEUE_URLS='living:https://sqs.region.amazonaws.com/123456789/rsay-living,bedroom:https://sqs.region.amazonaws.com/123456789/rsay-bedroom' ruboty
 ```
 
 ```
