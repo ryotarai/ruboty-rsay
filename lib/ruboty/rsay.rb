@@ -1,4 +1,5 @@
 require "ruboty/rsay/version"
+require "ruboty/handlers/rsay"
 
 module Ruboty
   module Rsay
