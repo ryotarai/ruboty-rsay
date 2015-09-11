@@ -17,11 +17,6 @@ module Ruboty
           queue_url: queue_url_for(message[:to]),
           message_body: {"Message" => message[:message]}.to_json,
         )
-
-        message.reply('OK')
-      rescue
-        message.reply('Error')
-        raise
       end
 
       private
